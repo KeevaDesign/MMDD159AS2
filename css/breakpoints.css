@@ -1,0 +1,433 @@
+/* ? *******************************/
+/* ? *******************************/
+/* ? Styles for Mobile Devices *****/
+/* ? *******************************/
+/* ? *******************************/
+
+@media (max-width: 767px) {
+
+  /*** Mobile styles here ***/
+  button {
+    font-size: 1.1rem;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .booking-button {
+    margin-right: 2rem;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  /*****************************************/
+  /**  Mobile - Index Page : Hero section **/
+  /*****************************************/
+
+  .header-wrapper {
+    height: 780px;
+  }
+
+  .hero {
+    max-height: 800px;
+  }
+
+  .hero img {
+    display: block;
+    margin-top: 6rem;
+    width: 67%;
+  }
+
+  .hero-text {
+    font-size: 2.9rem;
+  }
+
+  .CTA-button {
+    flex-direction: column;
+  }
+
+  .CTA-button div {
+    margin: 0.5rem 0;
+  }
+
+  .CTA-button button {
+    width: 100%;
+  }
+
+  /**********************************************/
+  /** Mobile - Index Page : The THREE features **/
+  /**********************************************/
+
+  .features {
+    padding: 2rem 1rem;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .features div {
+    font-size: 1.2rem;
+    margin: 0.6rem 0;
+  }
+
+  /************************************/
+  /** Mobile - Index Page : About Me **/
+  /************************************/
+
+  .about-me {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1.8rem;
+  }
+
+  .pro-pic {
+    width: 100%;
+    margin: 0rem;
+  }
+
+  .crop-image {
+    width: 100px;
+    height: 460px;
+    object-fit: cover;
+  }
+
+  .pro-text {
+    margin-right: 0rem;
+    padding: 0rem;
+  }
+
+  .pro-button {
+    text-align: center;
+  }
+
+  /*******************************************/
+  /** Mobile - Index Page : Why Choosing me **/
+  /*******************************************/
+
+  .features-why h4 {
+    padding-bottom: 1rem;
+  }
+
+  .reasons-container {
+    display: flex;
+    flex-direction: column;
+    /* Change to column on mobile */
+    align-items: center;
+    /* Center items in column */
+    padding: 0 1rem 4rem 1rem;
+  }
+
+  .reason {
+
+    /* Full width in column */
+    max-width: 380px;
+    margin: 1rem;
+    /* Adjust the margin as needed for spacing */
+    padding: 2rem;
+  }
+
+  /****************************************/
+  /** Mobile - Index Page : Testimonials **/
+  /****************************************/
+
+  .feedback-container {
+    grid-template-columns: 1fr 1fr;
+    /* Display one column on mobile */
+  }
+
+  /* End of Mobile Index page */
+
+  /* ********************************/
+  /* ******* Mobile - Footer ********/
+  /* ********************************/
+  .site-footer {
+    padding: 2rem;
+    flex-direction: column;
+  }
+
+  .footer-column {
+    flex: 1 0 100%;
+    /* Display as one column on mobile */
+    max-width: none;
+    margin: 0;
+  }
+
+  .quick-links {
+    padding: 0 0 1rem 0;
+  }
+
+  .newsletter-form {
+    padding-right: 0rem;
+  }
+
+  /* End of Mobile Footer  */
+
+  /* ************************************/
+  /* ******* Mobile - Class Page ********/
+  /* ************************************/
+
+  /* ****  Class Table **** */
+
+  .class-table-wrapper {
+    display: none;
+  }
+
+
+  .class-wrapper,
+  .booking-wrapper {
+    padding: 2rem 1rem;
+  }
+
+  /* Booking Wrapper */
+
+  .form-wrapper {
+    flex-direction: column;
+  }
+
+  .form-pic {
+    height: 300px;
+  }
+
+  /* ************************************/
+  /* ******* Mobile - About Page ********/
+  /* ************************************/
+
+  /**** About Section ****/
+  .about-wrapper,
+  .achievement-wrapper,
+  .gallery-wrapper {
+    padding: 2rem 1rem;
+  }
+
+  .about-pic {
+    width: 80%;
+    background-position: top;
+  }
+
+  .flex-gallery {
+    justify-content: center;
+    /* Center items on small screens */
+  }
+
+  .gallery-item {
+    flex: 1 0 calc(50% - 20px);
+
+  }
+
+  .gallery-item {
+    height: 300px;
+  }
+
+  /* End of Mobile Style */
+}
+
+/* ? *******************************/
+/* ? *******************************/
+/* ? Styles for Tablet Devices *****/
+/* ? *******************************/
+/* ? *******************************/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  /* Tablet styles here */
+  .nav-list {
+    display: none;
+  }
+
+  .booking-button {
+    margin-right: 2rem;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  /* ----------------------------------- */
+  /****** Tablet - Hero section ***** */
+  /* ----------------------------------- */
+  .hero {
+    max-height: 600px;
+  }
+
+  .hero-text {
+    font-size: 3rem;
+  }
+
+  .CTA-button {
+    /* flex-direction: column; */
+  }
+
+  .CTA-button div {
+    margin: 0.5rem 1rem;
+  }
+
+  .CTA-button button {
+    width: 100%;
+  }
+
+  /* ********************************************/
+  /* ******* Tablet - THe THREE features ********/
+  /* ********************************************/
+
+  .features {
+    height: 90px;
+    justify-content: center;
+  }
+
+  .features div {
+    margin: auto 0.4rem;
+  }
+
+  /******* About Me *******/
+
+  .pro-pic {
+    width: 30%;
+    margin-left: 4rem;
+  }
+
+
+  /******* Tablet - Why Choosing me *******/
+  .reason {
+    margin: 3rem 1rem;
+  }
+
+  /* ********************************/
+  /* ******* Tablet - Footer ********/
+  /* ********************************/
+
+  .site-footer {
+    padding: 4rem 1rem;
+  }
+
+  .quick-links {
+    padding: 0 1rem;
+  }
+
+  .newsletter-form {
+    padding-right: 0rem;
+  }
+
+  /* ************************************/
+  /* ******* Tablet - Class Page ********/
+  /* ************************************/
+
+  /* ****  Class Table **** */
+  .class-table-wrapper {
+    display: none;
+  }
+
+  /* ************************************/
+  /* ******* Tablet - About Page ********/
+  /* ************************************/
+
+  /**** About Section ****/
+  .about-wrapper,
+  .achievement-wrapper,
+  .gallery-wrapper {
+    padding: 2rem 1rem;
+  }
+
+  .about-pic {
+    width: 80%;
+    background-position: top;
+  }
+
+  .flex-gallery {
+    justify-content: center;
+    /* Center items on small screens */
+  }
+
+  .gallery-item {
+    flex: 1 0 calc(50% - 20px);
+
+  }
+
+  .gallery-item {
+    height: 340px;
+  }
+
+
+  /* End of tablet sytle */
+}
+
+/* ? *******************************/
+/* ? *******************************/
+/* ? Styles for Desktop Devices ****/
+/* ? *******************************/
+/* ? *******************************/
+
+@media (min-width: 1024px) {
+  /* Desktop styles here */
+
+  /* ***** Desktop - Hero section ***** */
+
+  .hero {
+    height: 700px;
+  }
+
+  .hero img {
+    /* position: absolute; */
+  }
+
+  .hero-text {
+    font-size: 3.4rem;
+  }
+
+  .CTA-button {
+    /* flex-direction: column; */
+    /* bottom: 10%; */
+  }
+
+  .CTA-button div {
+    margin: 0.5rem 1rem;
+  }
+
+  .CTA-button button {
+    width: 100%;
+  }
+
+  /* ************************************/
+  /* ******* Desktop - Class Page ********/
+  /* ************************************/
+
+  /* ****  Class Table **** */
+
+  .class-table-wrapper-mobile {
+    display: none;
+  }
+
+  /* ************************************/
+  /* ******* Tablet - About Page ********/
+  /* ************************************/
+
+  /**** About Section ****/
+  .about-wrapper,
+  .achievement-wrapper,
+  .gallery-wrapper {
+    padding: 4rem 10rem;
+  }
+
+  .about-pic {
+    width: 50%;
+    background-position: top;
+  }
+
+  .flex-gallery {
+    justify-content: center;
+    /* Center items on small screens */
+  }
+
+  .gallery-item {
+    flex: 1 0 calc(33.33% - 20px);
+
+  }
+
+  .gallery-item {
+    height: 340px;
+  }
+
+  /* End of Desktop Style */
+}
